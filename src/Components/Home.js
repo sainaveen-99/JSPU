@@ -8,17 +8,18 @@ function Home() {
     <>
       <Header />
       <div className="home-content">
-        <h1 class="welcome-header">
+        <h1 className="welcome-header">
           Welcome to J S P U & Associates
           <br /> Chartered Accountants
         </h1>
-        <h2 class="tools1"> Advisory | Assurance | Taxation</h2>
-        <h3 class="tools2">
+        <h2 className="tools1">Advisory | Assurance | Taxation</h2>
+        <h3 className="tools2">
           We are a team of professionals providing advisory and assurance
           services, committed to delivering practical and valuable insights to
           our clients.
         </h3>
       </div>
+
       <div className="cards-section">
         <h1 className="meet-heading">Meet Our Team</h1>
         <div className="cards-container">

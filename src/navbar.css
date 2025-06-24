@@ -61,10 +61,8 @@ h3 {
 }
 
 .navbar-links .nav-link::after {
-  content: "|";
   color: white;
   margin-left: 10px;
-  pointer-events: none; /* prevents hover */
 }
 
 /* Mobile Responsive */
