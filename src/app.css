@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+  text-align: center;
+}
+
+.header,
+.footer {
+  margin: 20px 0;
+}
+
+.footer {
+  background: #eee;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.green {
+  color: green;
+}
+
+.address {
+  max-width: 600px;
+  margin: auto;
+}

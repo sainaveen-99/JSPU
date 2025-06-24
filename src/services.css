@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Hind+Siliguri:wght@300;400;500;600;700&family=Kanit:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  background-color: #f0f4f8;
+  color: #333;
+}
+.services-section {
+  padding: 40px 20px;
+  background-color: #f9fbfd;
+  text-align: center;
+}
+
+.services-heading {
+  color: #0d47a1;
+  font-weight: 500;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.services-grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 300px;
+  flex: 1 1 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  background-color: #f5f7fa;
+}
+
+.service-title {
+  color: #1565c0;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.service-description {
+  color: #424242;
+  line-height: 1.5;
+  font-size: 1rem;
+}

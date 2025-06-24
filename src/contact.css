@@ -1,0 +1,35 @@
+.contact-section {
+  padding: 30px;
+  font-size: 100px;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #333;
+}
+
+.Address {
+  font-size: 28px;
+  color: #444;
+  line-height: 0.5;
+}
+
+.kanit-thin {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.map-container {
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.03);
+}

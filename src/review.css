@@ -1,0 +1,51 @@
+.review-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* ensures responsiveness */
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+  background: #f8f9fb;
+}
+
+.review-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  width: 300px; /* fix width ensures side-by-side */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  text-align: left;
+}
+
+.review-card:hover {
+  transform: translateY(-6px);
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.review-logo {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+}
+
+.stars {
+  color: #fbbf24;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.review-text {
+  font-size: 14px;
+  color: #444;
+}
+.review-header h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+}
