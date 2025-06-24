@@ -5,6 +5,7 @@ body {
   margin: 0;
   background: #fff;
   text-align: center;
+  padding: 0 16px;
 }
 
 .header,
@@ -25,4 +26,26 @@ body {
 .address {
   max-width: 600px;
   margin: auto;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 0.95rem;
+  }
+  body {
+    overflow-x: hidden;
+  }
+
+  .header,
+  .footer {
+    margin: 10px 0;
+  }
+
+  .footer {
+    padding: 8px;
+  }
+
+  .address {
+    font-size: 0.9rem;
+  }
 }
