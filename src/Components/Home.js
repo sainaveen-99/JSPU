@@ -3,6 +3,9 @@ import "../home.css";
 import Header from "./Header";
 import Card from "./Card";
 import { Link } from "react-router-dom";
+import About from "../Components/About";
+import Services from "../Components/Services";
+import Contact from "../Components/Contact";
 
 function Home() {
   return (
@@ -59,6 +62,11 @@ function Home() {
             email="kaveri1596@gmail.com"
             image="/profile3.jpg"
           />
+          <div>
+            <About />
+            <Services />
+            <Contact />
+          </div>
         </div>
       </div>
     </>
