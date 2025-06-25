@@ -10,6 +10,7 @@
   background: #f5f7fa;
   max-width: 1400px;
   margin-top: 80px;
+  margin-bottom: 20px;
 }
 
 .cards-container {
@@ -65,19 +66,19 @@
 }
 
 .card p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 350;
   margin: 4px 0;
   color: #555;
+  padding: 8px 12px; /* Match hover padding for smooth transition */
+  border-radius: 10px; /* Match hover border-radius */
   transition: all 0.3s ease;
 }
 
 .card p:hover {
   background-color: #f5f7fa;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
-  border-radius: 10px;
   font-size: 22px;
-  padding: 8px 12px;
 }
 
 h2,
@@ -95,6 +96,7 @@ h1,
   color: #2a5781;
   font-weight: 300;
   line-height: 1.2;
+  margin-bottom: 15px;
 }
 
 .tools1 {
@@ -210,8 +212,14 @@ body {
   text-decoration: none;
   color: inherit;
   display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease;
 }
+
 .clickable:hover {
   color: orange;
-  transform: scale(1.1);
+  transform: scale(1.2);
+}
+
+.separator {
+  margin: 0 20px; /* space before and after the | */
 }

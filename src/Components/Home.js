@@ -17,16 +17,17 @@ function Home() {
         <h2 className="tools1">
           <Link to="/services" className="clickable">
             Advisory
-          </Link>{" "}
-          |{" "}
+          </Link>
+          <span className="separator">|</span>
           <Link to="/services" className="clickable">
             Assurance
-          </Link>{" "}
-          |{" "}
+          </Link>
+          <span className="separator">|</span>
           <Link to="/services" className="clickable">
             Taxation
           </Link>
         </h2>
+
         <h3 className="tools2">
           We are a team of professionals providing advisory and assurance
           services, committed to delivering practical and valuable insights to

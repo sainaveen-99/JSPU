@@ -16,6 +16,12 @@
   color: white;
 }
 
+.navbar {
+  background-color: #145886;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* subtle shadow */
+  position: relative;
+  z-index: 1000; /* optional, keeps navbar above other elements */
+}
 .navbar-left {
   display: flex;
   align-items: center;
