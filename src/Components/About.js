@@ -1,6 +1,5 @@
 import React from "react";
 import "../about.css";
-import Review from "./Review"; // <-- Assuming Review is in the same folder
 
 const About = () => {
   return (
@@ -13,8 +12,6 @@ const About = () => {
         develop work flow automations, build management decision support systems
         and deliver what matters.
       </p>
-      <div className="about-section1">Reviews</div>
-      <Review />
     </div>
   );
 };

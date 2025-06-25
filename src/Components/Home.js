@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import About from "../Components/About";
 import Services from "../Components/Services";
 import Contact from "../Components/Contact";
+import Review from "./Review";
 
 function Home() {
   return (
@@ -66,6 +67,7 @@ function Home() {
             <About />
             <Services />
             <Contact />
+            <Review />
           </div>
         </div>
       </div>

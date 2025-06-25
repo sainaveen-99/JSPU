@@ -18,22 +18,25 @@ const Review = () => {
   ];
 
   return (
-    <div className="review-wrapper">
-      {reviews.map((review, idx) => (
-        <div className="review-card" key={idx}>
-          <div className="review-header">
-            <img
-              src="maps.png"
-              alt="Google Maps logo"
-              className="review-logo"
-            />
-            <h3>{review.name}</h3>
+    <>
+      <div className="about-section1">Reviews</div>
+      <div className="review-wrapper">
+        {reviews.map((review, idx) => (
+          <div className="review-card" key={idx}>
+            <div className="review-header">
+              <img
+                src="maps.png"
+                alt="Google Maps logo"
+                className="review-logo"
+              />
+              <h3>{review.name}</h3>
+            </div>
+            <div className="stars">★★★★★</div>
+            <p className="review-text">{review.text}</p>
           </div>
-          <div className="stars">★★★★★</div>
-          <p className="review-text">{review.text}</p>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    </>
   );
 };
 
