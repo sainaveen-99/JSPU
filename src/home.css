@@ -15,20 +15,20 @@
 .cards-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
   justify-content: center;
   padding: 40px;
   background: #f5f7fa;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  max-width: 1500px;
+  max-width: 1600px;
 }
 
 .card {
   background: #fff;
   border-radius: 15px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-  padding: 20px;
-  width: 400px;
+  padding: 15px;
+  width: 420px;
   text-align: center;
   transition: transform 0.2s ease;
 }
@@ -66,9 +66,10 @@
 
 .card p {
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 350;
   margin: 4px 0;
   color: #555;
+  transition: all 0.3s ease;
 }
 
 .card p:hover {
@@ -77,7 +78,6 @@
   border-radius: 10px;
   font-size: 22px;
   padding: 8px 12px;
-  transition: all 0.3s ease;
 }
 
 h2,
@@ -94,15 +94,16 @@ h1,
   font-size: 80px;
   color: #2a5781;
   font-weight: 300;
+  line-height: 1.2;
 }
 
 .tools1 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 300;
   color: white; /* border color and thickness */
   background-color: #145886; /* light gray fill */
   border-radius: 15px; /* rounded corners */
-  padding: 10px 15px; /* spacing inside the box */
+  padding: 10px 30px; /* spacing inside the box */
   display: inline-block; /* prevents full-width block */
 }
 
@@ -202,4 +203,15 @@ body {
   .home-content {
     padding: 20px;
   }
+}
+
+.clickable {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+.clickable:hover {
+  color: orange;
+  transform: scale(1.1);
 }

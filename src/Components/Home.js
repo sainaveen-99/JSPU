@@ -2,6 +2,7 @@ import React from "react";
 import "../home.css";
 import Header from "./Header";
 import Card from "./Card";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -12,7 +13,20 @@ function Home() {
           Welcome to J S P U & Associates
           <br /> Chartered Accountants
         </h1>
-        <h2 className="tools1">Advisory | Assurance | Taxation</h2>
+
+        <h2 className="tools1">
+          <Link to="/services" className="clickable">
+            Advisory
+          </Link>{" "}
+          |{" "}
+          <Link to="/services" className="clickable">
+            Assurance
+          </Link>{" "}
+          |{" "}
+          <Link to="/services" className="clickable">
+            Taxation
+          </Link>
+        </h2>
         <h3 className="tools2">
           We are a team of professionals providing advisory and assurance
           services, committed to delivering practical and valuable insights to
