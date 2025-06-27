@@ -101,7 +101,8 @@ h1,
   color: white; /* border color and thickness */
   background-color: #145886; /* light gray fill */
   border-radius: 15px; /* rounded corners */
-  padding: 10px 30px; /* spacing inside the box */
+  padding: 10px 30px;
+  margin-bottom: 20px; /* spacing inside the box */
   display: inline-block; /* prevents full-width block */
 }
 
