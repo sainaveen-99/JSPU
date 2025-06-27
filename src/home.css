@@ -1,5 +1,4 @@
-.home-content,
-.cards-container {
+.home-content {
   border-radius: 16px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
   margin: 20px auto;
@@ -19,11 +18,8 @@
   gap: 30px;
   justify-content: center;
   padding: 40px;
-  background: #f5f7fa;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   max-width: 1600px;
 }
-
 .card {
   background: #fff;
   border-radius: 15px;
@@ -124,10 +120,9 @@ h1,
 }
 
 .meet-heading {
-  font-size: 48px;
-  color: #2a5781;
+  font-size: 30px;
+  color: #0d47a1;
   font-weight: 500;
-  margin-bottom: 30px;
   text-align: center;
 }
 

@@ -33,6 +33,9 @@ const Navbar = () => {
         <Link to="/contact" className="nav-link">
           Contact
         </Link>
+        <Link to="/review" className="nav-link">
+          Reviews
+        </Link>
       </div>
     </nav>
   );
