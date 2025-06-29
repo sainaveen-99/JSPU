@@ -19,3 +19,17 @@
   line-height: 1.8;
   color: #555;
 }
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 16px;
+  }
+
+  .Abouttitle {
+    font-size: 24px;
+  }
+
+  .about-section p {
+    font-size: 16px;
+  }
+}
