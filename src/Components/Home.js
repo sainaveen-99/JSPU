@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "../home.css";
 import Header from "./Header";
 import Card from "./Card";
@@ -9,6 +9,30 @@ import Contact from "../Components/Contact";
 import Review from "./Review";
 
 function Home() {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <Header />
@@ -71,6 +95,11 @@ function Home() {
           </div>
         </div>
       </div>
+      {showButton && (
+        <button onClick={scrollToTop} className="go-to-top">
+          <img src="/backtotop.png" alt="Go to top" />
+        </button>
+      )}
     </>
   );
 }

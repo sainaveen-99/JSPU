@@ -219,3 +219,28 @@ body {
 .separator {
   margin: 0 20px; /* space before and after the | */
 }
+
+.go-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 1000;
+  padding: 0;
+  overflow: hidden;
+}
+
+.go-to-top:hover {
+  opacity: 0.8;
+}
+
+.go-to-top img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
