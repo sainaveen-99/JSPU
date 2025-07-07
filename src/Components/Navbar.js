@@ -6,14 +6,14 @@ import "../navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
+      <Link to="/" className="navbar-logo">
         <img
           class="logo"
           src="/ca-logo.jpg"
           alt="Chartered Accountant Logo"
           className="logo"
         />
-      </div>
+      </Link>
       <h3>
         J S P U & Associates
         <br />

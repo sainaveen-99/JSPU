@@ -87,12 +87,12 @@ function Home() {
             email="kaveri1596@gmail.com"
             image="/profile3.jpg"
           />
-          <div>
-            <About />
-            <Services />
-            <Contact />
-            <Review />
-          </div>
+        </div>
+        <div>
+          <About />
+          <Services />
+          <Contact />
+          <Review />
         </div>
       </div>
       {showButton && (
