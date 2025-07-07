@@ -52,3 +52,13 @@ body {
   line-height: 1.5;
   font-size: 1rem;
 }
+
+@media (max-width: 768px) {
+  .services-grid {
+    gap: 20px;
+  }
+
+  .service-card {
+    padding: 20px;
+  }
+}
